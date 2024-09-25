@@ -2,7 +2,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 
 local isSpamming = false
 
-local Window = OrionLib:MakeWindow({Name = "MADE BY cwueri", HidePremium = false, SaveConfig = true, ConfigFolder = "Cwueri"})
+local Window = OrionLib:MakeWindow({Name = "washiez sh", HidePremium = false, SaveConfig = true, ConfigFolder = "washiezSH"})
 
 local Tab = Window:MakeTab({
 	Name = "Main Page",
@@ -53,7 +53,6 @@ Section:AddButton({
 	Name = "Open Any Door (client-sided)",
 	Callback = function()
 		game.Players.LocalPlayer.GroupInfo.Rank.Value = 255
-  		print("Group rank set to 255")
   	end    
 })
 
@@ -77,9 +76,19 @@ Section:AddButton({
 		end
 		local hrUsernamesStr = table.concat(hrUsernames, ", ")  -- Concatenate usernames into a string
 		if hrCount > 3 then
-			sendNotification("HR SCAN", "There are " .. hrCount .. " HR's in-game:\n" .. hrUsernamesStr)
+			OrionLib:MakeNotification({
+				Name = "HR SCAN",
+				Content = "There are " .. hrCount .. " HR's in-game:\n" .. hrUsernamesStr,
+				Image = "rbxassetid://4483345998",
+				Time = 5
+			})
 		else
-			sendNotification("HR SCAN", "There are " .. hrCount .. " HR's in-game:\n" .. hrUsernamesStr)
+			OrionLib:MakeNotification({
+				Name = "HR SCAN",
+				Content = "There are " .. hrCount .. " HR's in-game:\n" .. hrUsernamesStr,
+				Image = "rbxassetid://4483345998",
+				Time = 5
+			})
 		end
   		print("HR scan completed")
   	end    
@@ -105,9 +114,19 @@ Section:AddButton({
 		end
 		local mrUsernamesStr = table.concat(mrUsernames, ", ")  -- Concatenate usernames into a string
 		if mrCount > 3 then
-			sendNotification("MR SCAN", "There are " .. mrCount .. " MR's in-game:\n" .. mrUsernamesStr)
+			OrionLib:MakeNotification({
+				Name = "MR SCAN",
+				Content = "There are " .. mrCount .. " MR's in-game:\n" .. mrUsernamesStr,
+				Image = "rbxassetid://4483345998",
+				Time = 5
+			})
 		else
-			sendNotification("MR SCAN", "There are " .. mrCount .. " MR's in-game:\n" .. mrUsernamesStr)
+			OrionLib:MakeNotification({
+				Name = "MR SCAN",
+				Content = "There are " .. mrCount .. " MR's in-game:\n" .. mrUsernamesStr,
+				Image = "rbxassetid://4483345998",
+				Time = 5
+			})
 		end
   		print("MR scan completed")
   	end    
@@ -117,7 +136,6 @@ Section:AddButton({
 	Name = "Fling All",
 	Callback = function()
 		flingAll()
-  		print("button pressed")
   	end    
 })
 
