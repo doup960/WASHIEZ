@@ -9,7 +9,7 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "FUCK YOU MOTHER FUCKER",
+	Name = "I LOVE BUTT NAKED MINORS",
 	Callback = function()
         local TextChatService = game:GetService("TextChatService")
 local Players = game:GetService("Players")
@@ -38,12 +38,12 @@ local function toBlockCode(input)
     return output
 end
 
-generalChannel:SendAsync(toBlockCode("FUCK YOU MOTHER FUCKER"))
+generalChannel:SendAsync(toBlockCode("I LOVE BUTT NAKED MINORS"))
   	end    
 })
 
 Tab:AddButton({
-	Name = "NIGGA COME OVER HERE AND FUCK MY ASS",
+	Name = "UR A BIG BLACK NIGER STFU",
 	Callback = function()
         local TextChatService = game:GetService("TextChatService")
 local Players = game:GetService("Players")
@@ -72,12 +72,12 @@ local function toBlockCode(input)
     return output
 end
 
-generalChannel:SendAsync(toBlockCode("nigga come over here and fuck my ass"))
+generalChannel:SendAsync(toBlockCode("UR A BIG BLACK NIGER STFU"))
   	end    
 })
 
 Tab:AddButton({
-	Name = "discord.gg/robloxtrollers",
+	Name = ".gg/robloxtrollers ON TOP, FUCK ALL WASHIEZ ADMINS",
 	Callback = function()
         local TextChatService = game:GetService("TextChatService")
 local Players = game:GetService("Players")
@@ -106,7 +106,7 @@ local function toBlockCode(input)
     return output
 end
 
-generalChannel:SendAsync(toBlockCode("discord.gg/robloxtrollers"))
+generalChannel:SendAsync(toBlockCode(".gg/robloxtrollers ON TOP, FUCK ALL WASHIEZ ADMINS"))
   	end    
 })
 
